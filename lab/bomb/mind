@@ -32,8 +32,14 @@ phase_2
 	push   %rbx
 应该是传入的两个参数
 
+单步执行
+ni;
+si
 
+$rsp 栈顶元素
+调用read_six_numbers
 
+x /s $rdx  以字符串的方式显示寄存器rdx中的值
 
 0000000000400efc <phase_2>:
   400efc:	55                   	push   %rbp
