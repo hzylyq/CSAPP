@@ -1,5 +1,19 @@
 ## 思路
 
+b phase_1
+b phase_2
+b phase_3
+b phase_4
+b explode_bomb
+
+
+gdb常用指令
+run 运行程序
+b phase_2 打断点
+step 单步运行
+si 单步执行汇编
+
+
 ## %rsp 栈指针寄存器，指向栈顶
 ## mov    $0x402400,%esi 将$0x402400内存的内容读取到%esi寄存器中
 ## strings_not_equal 判断字段串是否相同
